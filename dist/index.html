@@ -8,21 +8,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="text-gray-100">
-    <nav class="bg-teal-dark fixed w-full z-50 shadow">
-      <div class="container flex justify-between items-center">
-        <ul class="flex w-full justify-end uppercase">
-          <li class="ml-6"><a href="#" class="block p-6">Inicio</a></li>
-          <li class="ml-6"><a href="#servicios" class="block p-6">Servicios</a></li>
-          <li class="ml-6"><a href="#equipo" class="block p-6">Equipo</a></li>
-          <li class="ml-6"><a href="#" class="block p-6">Publicaciones</a></li>
-          <li class="ml-6"><a href="#contacto" class="block p-6">Contacto</a></li>
-        </ul>
+    <header class="bg-teal-dark">
+      <div class="container px-2 py-2 flex justify-between items-center">
+        <div id="logo">Logo</div>
+        <div id="toggle">
+          <button class="block focus:outline-none focus:text-gray-600" type="button">
+            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
       </div>
-    </nav>
-    <header class="min-h-screen flex justify-start items-center py-10">
-      <div class="container max-w-screen-lg uppercase font-thin text-2xl">
+      <nav class="container px-1 py-2 hidden">
+        <a class="block px-1 py-2 rounded hover:bg-teal-light" href="#">Inicio</a>
+        <a class="block px-1 py-2 rounded hover:bg-teal-light" href="#servicios">Servicios</a>
+        <a class="block px-1 py-2 rounded hover:bg-teal-light" href="#equipo">Equipo</a>
+        <a class="block px-1 py-2 rounded hover:bg-teal-light" href="#">Publicaciones</a>
+        <a class="block px-1 py-2 rounded hover:bg-teal-light" href="#contacto">Contacto</a>
+      </nav>
+    </header>
+    <div class="min-h-screen flex justify-start items-center py-10">
+      <div class="container uppercase font-thin text-2xl text-white">
         <div class="logo w-2/12 mb-10">
-          <svg class="text-white fill-current mb-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 499.1 546.2" style="enable-background: new 0 0 499.1 546.2;" xml:space="preserve">
+          <svg class="fill-current mb-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 499.1 546.2" style="enable-background: new 0 0 499.1 546.2;" xml:space="preserve">
             <g>
               <path
                 class="st0"
@@ -154,22 +163,22 @@
         <h1 class="hidden">Ludueña Abogados</h1>
         <h2 class="bg-teal-dark table p-1 my-1">Más de 50 años de experiencia en <br />Derecho Tributario, Penal Tributario y Aduanero.</h2>
       </div>
-    </header>
+    </div>
     <div class="bg-teal-dark">
-      <p class="container max-w-screen-lg py-20 text-2xl font-thin">Somos un equipo de abogados y contadores con presencia académica orientados principalmente a brindar soluciones en el ámbito del Derecho Tributario, Penal Tributario y Aduanero. Es nuestro objetivo brindar un excelente asesoramiento profesional que se adapte a los requerimientos y necesidades del cliente.</p>
+      <p class="container py-20 text-2xl font-thin">Somos un equipo de abogados y contadores con presencia académica orientados principalmente a brindar soluciones en el ámbito del Derecho Tributario, Penal Tributario y Aduanero. Es nuestro objetivo brindar un excelente asesoramiento profesional que se adapte a los requerimientos y necesidades del cliente.</p>
     </div>
     <main class="mt-20">
       <section class="bg-gray-100 text-gray-700">
         <div id="servicios" class="py-20">
           <h3 class="table mx-auto p-4 uppercase text-4xl font-bold tracking-wider">Servicios</h3>
         </div>
-        <div class="container max-w-screen-lg">
-          <ul class="flex justify-between uppercase font-bold text-3xl text-gray-100">
-            <li class="flex items-end w-3/12 h-64 p-4 bg-teal-light"><h4>Derecho Tributario</h4></li>
-            <li class="flex items-end w-3/12 h-64 p-4 bg-teal"><h4>Derecho Penal Económico</h4></li>
-            <li class="flex items-end w-3/12 h-64 p-4 bg-teal-dark"><h4>Derecho Aduanero</h4></li>
+        <div class="container">
+          <ul class="flex flex-col uppercase font-bold text-3xl text-gray-100">
+            <li class="flex items-end h-64 p-4 bg-teal-light"><h4>Derecho Tributario</h4></li>
+            <li class="flex items-end h-64 p-4 bg-teal"><h4>Derecho Penal Económico</h4></li>
+            <li class="flex items-end h-64 p-4 bg-teal-dark"><h4>Derecho Aduanero</h4></li>
           </ul>
-          <ul class="container max-w-screen-lg py-20 list-square text-lg">
+          <ul class="container py-20 list-square text-lg">
             <li class="mb-2">Defensas penales tributarias.</li>
             <li class="mb-2">Defensas penales por contrabando.</li>
             <li class="mb-2">Otras defensas penales económicas.</li>
@@ -189,7 +198,7 @@
           <h3 class="table mx-auto bg-teal-light p-4 uppercase text-4xl font-bold text-gray-100 tracking-wider">Nuestro equipo</h3>
         </div>
         <div class="bg-teal text-gray-100">
-          <div class="container max-w-screen-lg py-20">
+          <div class="container py-20">
             <h4 class="capitalize text-3xl font-bold mb-1">Gabriel Esteban Ludueña</h4>
             <h5 class="uppercase mb-1">Socio fundador</h5>
             <p class="font-bold mb-2">Abogado (UCA, 2011)</p>
@@ -208,37 +217,45 @@
           </div>
         </div>
         <div class="bg-blue-dark text-gray-100 mb-20">
-          <div class="container max-w-screen-lg py-20">
+          <div class="container py-20">
             <h4 class="uppercase text-3xl font-bold mb-2">Equipo</h4>
-            <h5 class="capitalize text-2xl font-bold mb-1">Dr. Antonio Javier Cricco</h5>
-            <h6 class="uppercase mb-1">Asociado</h6>
-            <p class="font-thin mb-8">Contador público - Abogado - Especialista en Derecho Tributario - Docente Universitario</p>
-            <h5 class="capitalize text-2xl font-bold mb-1">Dr. Eugenio Goyeneche</h5>
-            <h6 class="uppercase mb-1">Asociado</h6>
-            <p class="font-thin mb-8">Contador público - Abogado - Especialista en Derecho Tributario - Docente Universitario</p>
-            <h5 class="capitalize text-2xl font-bold mb-1">Dra. María Andrea Dobovsek</h5>
-            <h6 class="uppercase mb-1">Asociada</h6>
-            <p class="font-thin mb-8">Abogada egresada con diploma de honor de la Pontífica Universidad Católica Argentina (UCA) - Especialista en asesoramiento de empresas</p>
-            <h5 class="capitalize text-2xl font-bold mb-1">Dr. Carlos Alberto Ludueña</h5>
-            <h6 class="uppercase mb-1">Socio fundador</h6>
-            <p class="font-thin mb-8">Abogado - Ex letrado en la Dirección General de Rentas de la Provincia de Buenos Aires (Año 1974) - Ex letrado de la AFIP DGI Región Mercedes (Año 1975 a 1985) - Ex cobrador fiscal de la AFIP DGI (1985 a 1997)</p>
+            <div class="py-1">
+              <h5 class="capitalize text-2xl font-bold mb-1">Dr. Antonio Javier Cricco</h5>
+              <h6 class="uppercase mb-1">Asociado</h6>
+              <p class="font-thin mb-8">Contador público - Abogado - Especialista en Derecho Tributario - Docente Universitario</p>
+            </div>
+            <div class="py-1">
+              <h5 class="capitalize text-2xl font-bold mb-1">Dr. Eugenio Goyeneche</h5>
+              <h6 class="uppercase mb-1">Asociado</h6>
+              <p class="font-thin mb-8">Contador público - Abogado - Especialista en Derecho Tributario - Docente Universitario</p>
+            </div>
+            <div class="py-1">
+              <h5 class="capitalize text-2xl font-bold mb-1">Dra. María Andrea Dobovsek</h5>
+              <h6 class="uppercase mb-1">Asociada</h6>
+              <p class="font-thin mb-8">Abogada egresada con diploma de honor de la Pontífica Universidad Católica Argentina (UCA) - Especialista en asesoramiento de empresas</p>
+            </div>
+            <div class="py-1">
+              <h5 class="capitalize text-2xl font-bold mb-1">Dr. Carlos Alberto Ludueña</h5>
+              <h6 class="uppercase mb-1">Socio fundador</h6>
+              <p class="font-thin mb-8">Abogado - Ex letrado en la Dirección General de Rentas de la Provincia de Buenos Aires (Año 1974) - Ex letrado de la AFIP DGI Región Mercedes (Año 1975 a 1985) - Ex cobrador fiscal de la AFIP DGI (1985 a 1997)</p>
+            </div>
           </div>
         </div>
       </section>
       <section class="bg-teal text-gray-100 py-20 mb-20 font-thin">
         <div id="contacto">
-          <div class="container max-w-screen-lg">
-            <div class="grid grid-cols-2 gap-10">
+          <div class="container">
+            <div>
               <div>
                 <h3 class="font-bold mb-4">¡Contactanos!</h3>
                 <form action="" method="post" class="flex flex-col gap-4 mb-4">
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white" id="name" type="text" placeholder="Nombre"></input>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white" id="email" type="email" placeholder="Correo electrónico"></input>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white" id="phone" type="number" placeholder="Teléfono"></input>
-                    <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white" name="message" id="" cols="30" rows="6" placeholder="Mensaje"></textarea>
-                    <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline" type="button">Enviar</button>
-                  </form>
-                <p class="font-bold">O envianos un correo a <br><a class="font-thin" href="mailto:contacto@ludueñaabogados.com.ar">contacto@ludueñaabogados.com.ar</a></p>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white" id="name" type="text" placeholder="Nombre" />
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white" id="email" type="email" placeholder="Correo electrónico" />
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white" id="phone" type="number" placeholder="Teléfono" />
+                  <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white" name="message" id="" cols="30" rows="6" placeholder="Mensaje"></textarea>
+                  <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline" type="button">Enviar</button>
+                </form>
+                <p class="font-bold">O envianos un correo a <br /><a class="font-thin" href="mailto:contacto@ludueñaabogados.com.ar">contacto@ludueñaabogados.com.ar</a></p>
               </div>
               <div>
                 <h3 class="font-bold mb-4">Ubicación</h3>
@@ -252,10 +269,10 @@
     </main>
     <footer class="bg-blue-dark py-20 font-thin">
       <div class="container">
-        <div class="grid grid-cols-4 gap10">
+        <div>
           <div class="col-span-2">
             <h6 class="font-bold">Direcciones</h6>
-            <div class="grid grid-cols-2 gap10">
+            <div>
               <address class="not-italic">Marcelo T. de Alvear 883, Piso 2<br />C1058AAK Buenos Aires</address>
               <address class="not-italic">Calle 24 368<br />B6600HAF Mercedes</address>
             </div>
@@ -270,7 +287,7 @@
             <a href="tel:+5491143120622">+54 11 4312-0622</a><br />
             <a href="tel:+5491143127257">+54 11 4312-7257</a>
           </div>
-          <div class="col-span-4 text-center mt-20">
+          <div class="text-center mt-20">
             <small>Diseño web Juan Dematei</small>
           </div>
         </div>
