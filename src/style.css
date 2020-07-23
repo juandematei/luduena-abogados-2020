@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-image: url(/dist/img/img-1.png);
+  background-image: url(./img/img-1.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,7 +11,7 @@ body {
 }
 
 #equipo {
-  background-image: url(/dist/img/img-3.png);
+  background-image: url(./img/img-3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
