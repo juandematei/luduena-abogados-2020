@@ -7,11 +7,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="text-gray-100 font-thin">
-    <header class="bg-teal-dark fixed w-full md:flex md:justify-between z-50">
+  <body class="text-gray-100 bg-fixed bg-cover" style="background-image: url(img/img-1.png);">
+    <header class="bg-teal-dark fixed w-full md:flex md:justify-between z-50 shadow">
       <div class="container px-6 py-3 flex justify-between items-center md:max-w-screen-lg">
         <div id="logo">
-          <svg class="text-white fill-current h-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 498.72 118.3" enable-background="new 0 0 498.72 118.3" xml:space="preserve">
+          <svg class="text-white fill-current h-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 498.72 118.3" enable-background="new 0 0 498.72 118.3" xml:space="preserve">
             <g>
               <path d="M0,13.38h9.45V47.8h21.42v8.53H0V13.38z" />
               <path
@@ -142,8 +142,8 @@
     <!-- MAIN START -->
     <main>
       <!-- HERO START -->
-      <section id="hero" class="md:max-w-screen-lg min-h-screen container px-6 flex flex-col items-start justify-center">
-        <div class="w-3/12 md:w-2/12 mb-4">
+      <section id="hero" class="md:max-w-screen-lg min-h-screen container px-6 flex flex-col items-start justify-center object-cover">
+        <div class="sm:w-3/12 w-6/12 mb-4">
           <svg class="fill-current mb-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 499.1 546.2" style="enable-background: new 0 0 499.1 546.2;" xml:space="preserve">
             <g>
               <path
@@ -275,14 +275,17 @@
         </div>
         <h1 class="hidden">Ludueña Abogados</h1>
         <h2 class="table uppercase">
-          <mark class="bg-teal-dark text-gray-100 md:text-2xl">Más de 50 años de experiencia en <br class="hidden sm:block" />Derecho Tributario, Penal Tributario y Aduanero.</mark>
+          <mark class="bg-teal-dark text-gray-100 md:text-2xl border-teal-dark border-2"
+            >Más de 50 años de experiencia en<br class="hidden sm:block" />
+            Derecho Tributario, Penal Tributario y Aduanero.</mark
+          >
         </h2>
       </section>
       <!-- HERO END -->
       <!-- LEAD START -->
       <section class="bg-teal-dark">
         <div class="md:max-w-screen-lg container px-6 py-10">
-          <p class="text-xl md:text-2xl">Somos un equipo de abogados y contadores con presencia académica orientados principalmente a brindar soluciones en el ámbito del Derecho Tributario, Penal Tributario y Aduanero. Es nuestro objetivo brindar un excelente asesoramiento profesional que se adapte a los requerimientos y necesidades del cliente.</p>
+          <p class="text-xl md:text-2xl font-thin">Somos un equipo de abogados y contadores con presencia académica orientados principalmente a brindar soluciones en el ámbito del Derecho Tributario, Penal Tributario y Aduanero. Es nuestro objetivo brindar un excelente asesoramiento profesional que se adapte a los requerimientos y necesidades del cliente.</p>
         </div>
       </section>
       <!-- LEAD END -->
@@ -335,8 +338,8 @@
       </section>
       <!-- SERVICIOS END -->
       <!-- EQUIPO START -->
-      <section id="equipo" class="mb-20">
-        <div class="px-6 py-10">
+      <section id="equipo" class="bg-fixed bg-cover mb-20" style="background-image: url(img/img-3.png);">
+        <div class="px-6 py-20">
           <div class="table mx-auto p-4 bg-teal">
             <h3 class="uppercase text-4xl text-center font-bold tracking-wider">Nuestro equipo</h3>
           </div>
@@ -361,7 +364,7 @@
           </div>
         </div>
         <div class="bg-blue-dark text-gray-100">
-          <div class="md:max-w-screen-lg container px-6 py-10">
+          <div class="md:max-w-screen-lg container px-6 py-20">
             <h4 class="uppercase text-3xl font-bold mb-2">Equipo</h4>
             <div class="py-1 mb-4">
               <h6 class="uppercase mb-1">Asociado</h6>
@@ -406,7 +409,7 @@
               <div id="contacto-map" class="mb-10">
                 <h3 class="font-bold text-xl mb-4">Ubicación</h3>
                 <div id="map" class="h-64 mb-4"></div>
-                <address class="not-italic">Marcelo T. de Alvear 883, Piso 2<br />C1058AAK Buenos Aires</address>
+                <p class="font-thin">Marcelo T. de Alvear 883, Piso 2<br />C1058AAK Buenos Aires</p>
               </div>
             </div>
           </div>
@@ -415,29 +418,33 @@
       <!-- CONTACTO END -->
     </main>
     <!-- MAIN END -->
-    <footer class="bg-blue-dark">
+    <footer class="bg-blue-dark font-thin">
       <div class="container px-6 py-10">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
-          <div class="col-span-2 sm:border-r-2">
+        <div class="grid grid-cols-1 xl:grid-cols-4 gap-6 mb-10">
+          <div class="xl:col-span-2 xl:border-r-2">
             <h6 class="font-bold">Direcciones</h6>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <address class="not-italic">Marcelo T. de Alvear 883, Piso 2<br />C1058AAK Buenos Aires</address>
-              <address class="not-italic">Calle 24 368<br />B6600HAF Mercedes</address>
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+              <p>Marcelo T. de Alvear 883, Piso 2<br />CABA</p>
+              <p>Calle 24 368<br />Mercedes</p>
             </div>
           </div>
-          <div class="col-span-1 sm:border-r-2">
+          <div class="xl:col-span-1 xl:border-r-2">
             <h6 class="font-bold">Email</h6>
             <a href="mailto:contacto@ludueñaabogados.com.ar">contacto@ludueñaabogados.com.ar</a>
           </div>
-          <div class="col-span-1">
+          <div class="xl:col-span-1">
             <h6 class="font-bold">Teléfonos</h6>
             <a href="tel:+5491143120622">+54 11 4312-0622</a><br />
             <a href="tel:+5491143127257">+54 11 4312-7257</a>
           </div>
         </div>
-        <div class="w-full inline-flex justify-center items-center">
-          <small>Desarrolo web</small>
-          <a href="https://www.juandematei.com" target="_blank"><img class="w-6 h-auto ml-2" src="https://www.juandematei.com/img/logo-white.png" alt="Logo Juan Dematei" /></a>
+        <div class="w-full inline-flex justify-center items-center gap-4 uppercase font-bold">
+          <small>
+            <a class="inline-flex gap-2" href="https://www.thewavecreativestudio.com/" target="_blank" title="The Wave Creative Studio">Diseño web<img class="h-6 w-auto" src="img/logo-wave.png" alt="Logo Wave creative estudio" /></a>
+          </small>
+          <small>
+            <a class="inline-flex gap-2" href="https://www.juandematei.com" target="_blank" title="Juan Dematei">Desarrollo<img class="h-6 w-auto" src="https://www.juandematei.com/img/logo-white.png" alt="Logo Juan Dematei desarrollador web" /> </a>
+          </small>
         </div>
       </div>
     </footer>

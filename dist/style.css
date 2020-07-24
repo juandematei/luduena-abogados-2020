@@ -16471,22 +16471,6 @@ video {
   transition-delay: 1000ms;
 }
 
-body {
-  background-image: url(img/img-1.png);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-#equipo {
-  background-image: url(img/img-3.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
