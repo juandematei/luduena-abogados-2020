@@ -1,0 +1,154 @@
+﻿{
+  "data": [
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Un aporte a los conflictos que se aproximan sobre la prescripción de los tributos locales.",
+      "FUENTE": "Erreius - Suplemento sobre el nuevo código civil unificado (aspectos tributarios, empresariales y contables)",
+      "FECHA": "Febrero/Marzo 2015"
+    },
+    {
+      "AUTOR": "Autor del artículo",
+      "TITULO": "Empresa Pesquera de la Patagonia y Antártida S.A. c/ Provincia de Tierra del Fuego.",
+      "FUENTE": "eldial.com - Suplemento sobre Derecho Tributario (Año XVIII - N° 4306)",
+      "FECHA": "27/08/15"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "La prescripción de los tributos locales en la jurisprudencia actual del Superior Tribunal de Justicia de la CABA. Críticas a la espera de una resolución de la CSJN.",
+      "FUENTE": "Errepar - Suplemento Práctica Integral (Año VIII - N° 85.)",
+      "FECHA": "Marzo 2016"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Implicancias impositivas de las modificaciones en materia societaria en el nuevo CCyC.",
+      "FUENTE": "Errepar",
+      "FECHA": "Mayo 2016"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "El Aumento Reciente de Tarifas y las Medidas Judiciales.",
+      "FUENTE": "microjuris.com (mj-doc-9931-ar | mjd9931; mdz,mj)",
+      "FECHA": "27/06/16"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Clausura, Monotributo y principio de proporcionalidad de penas a la luz de una jurisprudencia reciente. Comentario al fallo “Echegaray”.",
+      "FUENTE": "Práctica y Actualidad Tributaria Errepar",
+      "FECHA": "Julio 2016"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Algo Más Sobre la Naturaleza Jurídica de los Ilícitos Tributarios.",
+      "FUENTE": "Doctrina Tributaria Errepar",
+      "FECHA": "Agosto 2016"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Régimen de Regularización de Deudas y de Exención de Intereses, Multas y Demás Sanciones.",
+      "FUENTE": "eldial.com (dc21ae)",
+      "FECHA": "30/08/16"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Sinceramiento Fiscal. Comentarios a la Ley 27260 y a su Reglamentación.",
+      "FUENTE": "Doctrina Tributaria Errepar",
+      "FECHA": "Octubre 16"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Blanqueo, Buen Contribuyente y Bloqueo fiscal comentario sobre sus Principales Implicancias.",
+      "FUENTE": "eldial.com (dc21fa)",
+      "FECHA": "05/10/16"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Fallos Disonantes en Materia de Blanqueos.",
+      "FUENTE": "Doctrina Tributaria Errepar",
+      "FECHA": "Enero 17"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "El nuevo impuesto al dólar futuro: ¿tiene futuro?",
+      "FUENTE": "Diario El Cronista",
+      "FECHA": "04/01/17"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Impuesto al dólar futuro y una cuestionable técnica en su creación.",
+      "FUENTE": "Diario El Cronista",
+      "FECHA": "31/01/17"
+    },
+    {
+      "AUTOR": "Autor del artículo",
+      "TITULO": "El millonario litigio de Buenos Aires.",
+      "FUENTE": "Diario El Cronista",
+      "FECHA": "27/06/17"
+    },
+    {
+      "AUTOR": "Autor del artículo",
+      "TITULO": "El cambio de caratula en el fallo Cristóbal López: ¿Una victoria Pírrica?",
+      "FUENTE": "Diario El Cronista",
+      "FECHA": "27/03/18"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "El impuesto a las ganancias y las indemnizaciones laborales a partir de la reforma de la ley 27430.",
+      "FUENTE": "eldial.com - Suplemento de Derecho Empresarial",
+      "FECHA": "01/12/18"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Fallos Destacados en Materia Tributaria",
+      "FUENTE": "Revista Electrónica del Departamento de Derecho Económico y Empresarial de la Facultad de Derecho de la UBA (Año 11 - Número 1).",
+      "FECHA": "Abril 2019"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "La sanción de clausura y la ley penal más benigna. A la luz de una jurisprudencia reciente de la Cámara de San Martin.",
+      "FUENTE": "Doctrina Tributaria Errepar - Tomo XL",
+      "FECHA": "Diciembre 2019"
+    },
+    {
+      "AUTOR": "Autor del Capítulo VII",
+      "TITULO": "Las modificaciones de la reforma tributaria al régimen infraccional tributario.",
+      "FUENTE": "Procedimiento Tributario y Aduanero después de la reforma (Editorial Marcial Pons)",
+      "FECHA": "Año 2018"
+    },
+    {
+      "AUTOR": "Coautor del Capítulo I",
+      "TITULO": "Régimen penal tributario después de la reforma.",
+      "FUENTE": "Régimen penal e infraccional tributario después de la reforma (Editorial Marcial Pons)",
+      "FECHA": "Año 2018"
+    },
+    {
+      "AUTOR": "Autor del Capítulo II",
+      "TITULO": "Régimen infraccional tributario después de la reforma",
+      "FUENTE": "Régimen penal e infraccional tributario después de la reforma (Editorial Marcial Pons)",
+      "FECHA": "Año 2018"
+    },
+    {
+      "AUTOR": "Autor del Capítulo IX",
+      "TITULO": "La posibilidad de aplicar el instituto de la reparación integral a los delitos tributarios.",
+      "FUENTE": "Derecho Penal Tributario (Editorial Ad Hoc)",
+      "FECHA": "Año 2019"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "Comentario sobre la modificación del impuesto a los bienes personales.",
+      "FUENTE": "Práctica y Actualidad Tributaria Errepar - Tomo XXVI",
+      "FECHA": "Enero 2020"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "La nueva moratoria (27541) y los efectos penales.",
+      "FUENTE": "Doctrina Tributaria Errepar - Tomo XLI",
+      "FECHA": "Abril 2020"
+    },
+    {
+      "AUTOR": "Coautor del artículo",
+      "TITULO": "TASAS MUNICIPALES: la jurisprudencia pone un límite a la sanción de clausura por incumplimientos materiales -Comentario al fallo “O. S.R.L. c/Municipalidad de San Martín.",
+      "FUENTE": "eldial.com",
+      "FECHA": "22/04/20"
+    }
+  ]
+}

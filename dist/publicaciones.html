@@ -150,13 +150,7 @@
           </div>
         </div>
         <div class="bg-teal text-gray-700">
-          <div class="md:max-w-screen-lg container px-6 py-10 grid gap-6">
-            <article class="bg-gray-100 p-6 shadow hover:shadow-xl">
-              <p class="uppercase">Autor</p>
-              <h3 class="text-2xl text-blue-dark font-bold">Título</h3>
-              <address class="not-italic">Publicado en <time>2020</time> en Errepar</address>
-            </article>
-          </div>
+          <ul id="article-list" class="md:max-w-screen-lg container px-6 py-10 grid gap-6"></ul>
         </div>
       </section>
       <!-- SECTION END -->
@@ -202,13 +196,7 @@
         }
       }
     </script>
-    <script>
-      function initMap() {
-        var uluru = { lat: -34.596332, lng: -58.379578 };
-        var map = new google.maps.Map(document.getElementById("map"), { zoom: 15, center: uluru });
-        var marker = new google.maps.Marker({ position: uluru, map: map });
-      }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWOuxK5CDT1xvAEAuksxphQtqECTz2Ths&callback=initMap"></script>
+    <script type="text/javascript" src="publicaciones.json"></script>
+    <script type="text/javascript" src="publicaciones.js"></script>
   </body>
 </html>
