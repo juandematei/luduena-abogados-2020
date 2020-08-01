@@ -3,23 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ludueña Abogados - Derecho Tributario, Penal Tributario y Aduanero.</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
-    <link rel="manifest" href="/icons/site.webmanifest" />
-    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3d6d79" />
-    <link rel="shortcut icon" href="/icons/favicon.ico" />
+    <title>Ludueña Abogados - Tributario, Penal Tributario y Aduanero.</title>
+    <meta name="description" content="Abogados y contadores con presencia académica orientados a brindar soluciones en el ámbito del Derecho Tributario, Penal Tributario y Aduanero." />
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
+    <link rel="manifest" href="icons/site.webmanifest" />
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#3d6d79" />
+    <link rel="shortcut icon" href="icons/favicon.ico" />
     <meta name="apple-mobile-web-app-title" content="Ludue&ntilde;a Abogados" />
     <meta name="application-name" content="Ludue&ntilde;a Abogados" />
     <meta name="msapplication-TileColor" content="#2b5797" />
-    <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+    <meta name="msapplication-config" content="icons/browserconfig.xml" />
     <meta name="theme-color" content="#3d6d79" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
   </head>
-  <body class="text-gray-100 bg-fixed bg-cover bg-center" style="background-image: url(img/img-5.png);">
+  <body class="text-gray-100 bg-fixed bg-cover bg-center" style="background-image: url(img/min/img-5.jpg);">
     <header class="bg-teal-dark fixed w-full md:flex md:justify-between z-50 shadow">
       <div class="container px-6 py-3 flex justify-between items-center md:max-w-screen-lg">
         <div id="logo">
@@ -134,7 +135,7 @@
           </svg>
         </div>
         <div id="toggle" class="sm:block md:hidden">
-          <button onclick="menuToggle()" class="block focus:outline-none" type="button">
+          <button onclick="menuToggle()" class="block focus:outline-none" type="button" aria-label="Abrir/Cerrar menú">
             <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
@@ -143,11 +144,11 @@
       </div>
       <nav id="navbar" class="container px-4 py-2 hidden md:block md:max-w-screen-lg">
         <div class="uppercase font-bold text-center sm:block md:flex justify-end">
-          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="/">Inicio</a>
-          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="index.html#servicios">Servicios</a>
-          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="index.html#equipo">Equipo</a>
-          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="publicaciones.html">Publicaciones</a>
-          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="index.html#contacto">Contacto</a>
+          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="/index.html">Inicio</a>
+          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="/index.html#servicios">Servicios</a>
+          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="/index.html#equipo">Equipo</a>
+          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="/publicaciones.html">Publicaciones</a>
+          <a onclick="menuToggle()" class="block md:ml-4 px-2 py-2 rounded focus:outline-none focus:bg-teal hover:bg-teal-light" href="/index.html#contacto">Contacto</a>
         </div>
       </nav>
     </header>
@@ -172,18 +173,18 @@
       <div class="container px-6 py-10">
         <div class="grid grid-cols-1 xl:grid-cols-4 gap-6 mb-10">
           <div class="xl:col-span-2 xl:border-r-2">
-            <h6 class="font-bold">Direcciones</h6>
+            <h3 class="font-bold">Direcciones</h3>
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
               <p>Marcelo T. de Alvear &#8470; 883, Piso 2<br />Ciudad de Buenos Aires</p>
               <p>Calle 24 &#8470; 368<br />Mercedes</p>
             </div>
           </div>
           <div class="xl:col-span-1 xl:border-r-2">
-            <h6 class="font-bold">Email</h6>
+            <h3 class="font-bold">Email</h3>
             <a href="mailto:contacto@ludueñaabogados.com.ar">contacto@ludueñaabogados.com.ar</a>
           </div>
           <div class="xl:col-span-1">
-            <h6 class="font-bold">Teléfonos</h6>
+            <h3 class="font-bold">Teléfonos</h3>
             <a href="tel:+5491143120622">+54 11 4312-0622</a><br />
             <a href="tel:+5491143127257">+54 11 4312-7257</a>
           </div>
