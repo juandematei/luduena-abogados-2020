@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwind build src/style.css -o dist/style.css "
+    "build:css": "tailwind build src/style.css -o dist/style.css ",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/juandematei/luduena-abogados-2020#readme",
   "dependencies": {
-    "tailwindcss": "^1.5.1"
+    "tailwindcss": "^1.5.1",
+    "gh-pages": "^2.0.1"
   }
 }
