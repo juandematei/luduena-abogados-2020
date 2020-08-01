@@ -1,19 +1,19 @@
 {
-    "name": "Ludue\u00f1a Abogados",
-    "short_name": "Ludue\u00f1a Abogados",
-    "icons": [
-        {
-            "src": "/icons/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/icons/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#3d6d79",
-    "background_color": "#3d6d79",
-    "display": "standalone"
+  "name": "Ludue\u00f1a Abogados",
+  "short_name": "Ludue\u00f1a Abogados",
+  "icons": [
+    {
+      "src": "icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#3d6d79",
+  "background_color": "#3d6d79",
+  "display": "standalone"
 }
